@@ -3,9 +3,7 @@
 }
 
 h1 {
-    font-size: 2.5rem;
-}
-h1.header {
+    font-size: 2.5rem !important;
     color: #343434 !important;
     font-weight: bold !important;
 }
@@ -64,7 +62,8 @@ a.nav-link {
 }
 
 .container.main-text {
-    max-width: 90%;
+    max-width: 500px;
+    width: 90%;
     padding: 5px 20px;
     margin: 20px auto;
     background-color: #343434;
