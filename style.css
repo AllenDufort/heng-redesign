@@ -22,7 +22,8 @@ a.nav-link {
     padding: 5px;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:focus {
     text-decoration: underline;
     color: #000;
 }
@@ -74,7 +75,8 @@ a.nav-link {
 .btn.doordash {
     background-color: #D23320 !important;
 }
-.btn.doordash:hover {
+.btn.doordash:hover, 
+.btn.doordash:focus {
     border-color: #D23320 !important;
     color: #D23320 !important;
 }
@@ -82,7 +84,8 @@ a.nav-link {
 .btn.order {
     background-color: #017284 !important;
 }
-.btn.order:hover {
+.btn.order:hover,
+.btn.order:focus {
     border-color: #017284 !important;
     color: #017284 !important;
 }
@@ -92,7 +95,9 @@ a.nav-link {
     border-color: #fff !important;
     color: #fff !important;
 }
-.btn:hover {
+.btn:hover,
+.btn:focus {
+
     background-color: #fff !important;
     border-width: 1.5px;
 }
