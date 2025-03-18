@@ -90,17 +90,27 @@ a.nav-link {
 .btn {
     border-radius: 40px !important;
     border-color: #fff !important;
-    /* padding: 10px !important; */
     color: #fff !important;
 }
-@media (max-width: 450px) {
-    .btn {
-        /* transform: scale(0.8);  */
-        font-size: 0.8em !important;
-    }
-}
-
 .btn:hover {
     background-color: #fff !important;
     border-width: 1.5px;
+}
+
+@media (max-width: 370px) {
+    .btn {
+        font-size: 0.65em !important;
+    }
+    .btn img {
+        transform: scale(0.65);
+    }
+}
+
+@media (min-width: 370px) and (max-width: 450px) {
+    .btn {
+        font-size: 0.8em !important;
+    }
+    .btn img {
+        transform: scale(0.8);
+    }
 }
