@@ -96,8 +96,16 @@ a.nav-link {
     background-color: #fff !important;
     border-width: 1.5px;
 }
+@media (max-width: 345px) {
+    .btn {
+        font-size: 0.5em !important;
+    }
+    .btn img {
+        transform: scale(0.5);
+    }
+}
 
-@media (max-width: 370px) {
+@media (min-width: 345px) and (max-width: 370px) {
     .btn {
         font-size: 0.65em !important;
     }
