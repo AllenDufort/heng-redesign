@@ -93,6 +93,13 @@ a.nav-link {
     /* padding: 10px !important; */
     color: #fff !important;
 }
+@media (max-width: 450px) {
+    .btn {
+        /* transform: scale(0.8);  */
+        font-size: 0.8em !important;
+    }
+}
+
 .btn:hover {
     background-color: #fff !important;
     border-width: 1.5px;
